@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDemo", "EfDemo\EfDemo.csproj", "{312FC545-C603-4C03-BF4C-1A1B0CB2F358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository", "GenericRepository\GenericRepository.csproj", "{312FC545-C603-4C03-BF4C-1A1B0CB2F358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDemo.Tests", "EfDemo.Tests\EfDemo.Tests.csproj", "{47B0CB7D-D11F-4E2C-A08B-524EB91F163A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository.Tests", "GenericRepository.Tests\GenericRepository.Tests.csproj", "{47B0CB7D-D11F-4E2C-A08B-524EB91F163A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

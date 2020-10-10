@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace EfDemo.Tests.GenericRepositoryTests
+namespace EfDemo.Tests
 {
     public class TestObject
     {

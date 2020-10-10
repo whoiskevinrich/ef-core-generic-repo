@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using GenericRepository;
 using Microsoft.EntityFrameworkCore;
 using Shouldly;
 using Xunit;
 
-namespace EfDemo.Tests.GenericRepositoryTests
+namespace EfDemo.Tests
 {
     public class GenericRepositoryTests
     {

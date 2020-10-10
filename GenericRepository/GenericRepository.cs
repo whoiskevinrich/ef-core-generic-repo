@@ -2,18 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace EfDemo
+namespace GenericRepository
 {
-    public interface IRepository<T> where T : class
-    {
-        Task<IEnumerable<T>> GetAllAsync();
-        Task<T> FindAsync(params object[] values);
-        Task<T> InsertAsync(T entity);
-        Task UpdateAsync(T entity);
-        Task DeleteAsync(T entity);
-    }
-    
-    public class GenericRepository<T> : IRepository<T> where T : class
+    public class GenericRepository<T> where T : class
     {
         private readonly DbContext _context;
         private readonly DbSet<T> _dbSet;
