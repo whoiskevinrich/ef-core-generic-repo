@@ -31,11 +31,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-          
-      - uses: actions/setup-dotnet@v1.7.2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1.7.2
         with:
-          dotnet-version: 3.1.x
+          dotnet-version: 5.x
       - name: Restore
         run: dotnet restore
       - name: Build
